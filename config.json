@@ -1,0 +1,7 @@
+{
+  "TOKEN": "https://discord.com/api/oauth2/authorize?client_id=948803948159070238&permissions=8&scope=bot%20applications.commands",
+  "notify_mode": "Spectified",
+  "embed_design": "ꜱᴛᴀᴄɪᴀ.#7475",
+  "store_password": false,
+  "refresh_token": true
+}
