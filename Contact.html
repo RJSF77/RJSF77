@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Photo/Logo MSP yellow.PNG" href="D:\Dave\Coding\Website skate park\Photo\Logo MSP yellow.PNG"/>
+    <title>Menteng Skate Park</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3bea086f65.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C5PPP5W626"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C5PPP5W626');
+    </script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Photo/Logo MSP yellow.PNG"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Grand_opening.html">GRAND OPENING</a></li>
+                    <li><a href="Facilities.html">FACILITIES</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="contact-us-h1">Contact Us</h1>
+
+        <!-- location -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15928.329390577952!2d98.70073006977537!3d3.568524900000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5fa98bc76021873c!2sMenteng%20Skate%20Park%20Project!5e0!3m2!1sen!2sid!4v1646901756430!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Jl. Raya Medan Tenggara No.277</h5>
+                        <p>Binjai, Kec. Medan Denai, Kota Medan, Sumatera Utara 20228</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+62 82276201775</h5>
+                        <p>Monday - Sunday, 10AM-10PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>mentengskate@gmail.com</h5>
+                        <p>Email Us</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form_handler.php" method="post" data-netlify="true">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text"  name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8"  name="message"placeholder="Message" required></textarea>
+                    <div data-netlify-recaptcha="true"></div>
+                    <button type="submit" class="visit yellow-btn" >Send Message</button>
+                    
+                    
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis molestiae maiores at odit corporis 
+            voluptas autem itaque eaque, esse asperiores dolore, vel commodi nam laborum officia exercitationem explicabo deleniti?</p>\
+        <div class="icons">
+            <!-- <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i> -->
+            <i class="fa fa-instagram"> : @mentengskatepark</i>
+            <!-- <i class="fa fa-linked"></i> -->
+        </div>
+    </section>
+   
+
+    <!-- java script for menu in mobile -->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+</html>
